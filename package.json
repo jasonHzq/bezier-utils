@@ -1,0 +1,40 @@
+{
+  "name": "bezier-utils",
+  "version": "0.1.0",
+  "description": "bezier utils",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test",
+    "test-watch": "./node_modules/.bin/mocha test -w",
+    "watch": "NODE_ENV=production ./node_modules/.bin/babel src/ --out-dir lib/ -w",
+    "build": "NODE_ENV=production ./node_modules/.bin/babel src/ --out-dir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jasonHzq/bezier-utils.git"
+  },
+  "keywords": [
+    "bezier curve",
+    "sub bezier curve",
+    "castelijau"
+  ],
+  "dependencies": {
+    "mocha": "~2.3.3"
+  },
+  "devDependencies": {
+    "babel": "~5.8.23",
+    "chai": "~3.3.0",
+    "chai-spies": "~0.7.1"
+  },
+  "maintainers": [
+    {
+      "name": "hzongquan",
+      "email": "hzongquan@126.com"
+    }
+  ],
+  "author": "hzongquan",
+  "license": "MIT"
+}
