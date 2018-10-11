@@ -1,8 +1,8 @@
-###bezier utils
+### bezier utils
 
 calculate bezier curve using De Casteljau's algorithm. We can divide bezier curve to any sub curves by using bezier utils.
 
-###API
+### API
 
 ```
 /*
